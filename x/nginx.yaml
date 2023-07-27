@@ -14,6 +14,6 @@ spec:
     spec:    # pod的期望信息（也可以理解为容器内的定义）
       containers:   # pod的容器
        - name: nginx   # 容器的名称
-         image: nginx:latest   # 容器所使用的镜像
+         image: nginx:1.22   # 容器所使用的镜像
          ports:   # 容器暴露的端口号
          - containerPort: 80
